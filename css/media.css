@@ -1,0 +1,70 @@
+/* start navbar */
+.my-nav .nav-link{
+    width: fit-content;
+    margin: auto;
+}
+/* end navbar */
+/* start header */
+@media (max-width:768px){
+    #home h1 ,#home h1 span{
+        font-size: 30px;
+    }
+    #home h1 span::after{
+        height: 40px;
+    }
+}
+@media (min-width:769px) and (max-width:992px){
+    #home h1 ,#home h1 span{
+        font-size: 44px;
+    }
+    #home h1 span::after{
+        height: 50px;
+    }
+}
+/* end header */
+/* start about */
+@media (max-width:992px){
+    #about .about-text{
+        margin-top: 70px;
+    }
+}
+@media (max-width:334px){
+    #about .about-button a:first-child{
+        margin-bottom: 10px;
+    }
+}
+/* end about */
+/* start services */
+@media (min-width:769px) and (max-width:992px){
+    #services .services-inner{
+        padding-inline: 15px;
+    }
+}
+/* end services */
+/* start portfolio*/
+@media (min-width:992px){
+    .modal .carousel-control-prev {
+        left: -20%;
+    }
+    .modal .carousel-control-next{
+        right: -20%;
+    }
+}
+@media (max-width:400px){
+    .modal .carousel-control-next , .modal .carousel-control-prev  {
+        font-size: 40px;
+    }
+}
+/* end portfolio */
+/* start contact */
+@media (min-width:992px){
+    #contact form input{
+        width: 48% !important;
+    }
+}
+/* end contact */
+@media (max-width:330px){
+    .main-heading h2{
+        font-size: 30px;
+    }
+}
